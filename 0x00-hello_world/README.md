@@ -27,3 +27,7 @@ Script that generates the assembly code of a C code and save it in an output fil
 ## 3. Name
 Write a script that compiles a C file and creates an executable named *cisfun*
 
+## 4. Hello, puts
+Write a C program that prints exactly a sentence  followed by a new line.
+
+
