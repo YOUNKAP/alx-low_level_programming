@@ -15,12 +15,15 @@ export CFILE=main.c
 ### Step 3 : chech the contain of variable
 echo $CFILE
 
-# 0.Preprocessor
+## 0.Preprocessor
 Script that runs a C file through the preprocessor and save the result into another file.
 
-# 1. Compiler
+## 1. Compiler
 Script that compiles a C file but does not link
 
-#2. Assembler
+## 2. Assembler
 Script that generates the assembly code of a C code and save it in an output file.
+
+## 3. Name
+Write a script that compiles a C file and creates an executable named *cisfun*
 
