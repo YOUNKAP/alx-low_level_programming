@@ -30,4 +30,6 @@ Write a script that compiles a C file and creates an executable named *cisfun*
 ## 4. Hello, puts
 Write a C program that prints exactly a sentence  followed by a new line.
 
+## 5. Hello, printf
 
+## 6. Size is not grandeur, and territory does not make a nation
