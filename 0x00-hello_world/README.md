@@ -1,2 +1,23 @@
 This repository contains script for *ALX* and *Holberton* **Software Engineering Program**
 The code hosted here is about low level programming with **C**
+## Task 0 : Preprocessor
+
+### Step 0 : create the main  file and write script inside
+
+vim main.c
+
+### Step 1 : export the file to variable
+export CFILE=main.c
+
+### Step 2 : compile the file
+./0-preprocessor
+
+### Step 3 : chech the contain of variable
+echo $CFILE
+
+# 0.Preprocessor
+Write a script that runs a C file through the preprocessor and save the result into another file.
+
+# 1. Compiler
+Write a script that compiles a C file but does not link
+
