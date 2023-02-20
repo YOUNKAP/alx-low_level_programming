@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 /**
- * main -> combinations of two different characters, separated by a comma followed by a space.
+ * main -> combinations of two different nbrs, separated by a comma followed by a space.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	int character1, character2;
+	int nbr1, nbr2;
 
-	for (character1 = 0; character1 < 9; character1++)
+	for (nbr1 = 0; nbr1 < 9; nbr1++)
 	{
-		for (character2 = character1 + 1; character2 < 10; character2++)
+		for (nbr2 = nbr1 + 1; nbr2 < 10; nbr2++)
 		{
-			putchar((character1 % 10) + '0');
-			putchar((character2 % 10) + '0');
+			putchar((nbr1 % 10) + '0');
+			putchar((nbr2 % 10) + '0');
 
-			if (character1 == 8 && character2 == 9)
+			if (nbr1 == 8 && nbr2 == 9)
 				continue;
 			putchar(',');
 			putchar(' ');
