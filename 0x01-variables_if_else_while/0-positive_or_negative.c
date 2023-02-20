@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Assign a random number to the variable n each time it is executed
- * 	  State if n  is positive, negative, or zero.
+ * State if n  is positive, negative, or zero.
  *
  * Return: Always 0.
 */
