@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -> combinations of two different nbrs, separated by a comma followed by a space.
+ * main -> combinations of two different nbrs.
  *
  * Return: Always 0.
  */
