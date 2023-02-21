@@ -2,15 +2,15 @@
 
 /**
  * print_sign - Prints the sign of a number.
- * @nbr: The number of which the sign will be printed.
+ * @n: The number of which the sign will be printed.
  *
  * Return: 1 if nbr > 0 ,
  *         0 if nbr = 0 ,
  *         -1 if nbr < 0 ,
- */
-int print_sign(int nbr)
+*/
+int print_sign(int n)
 {
-	if (nbr > 0)
+	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
