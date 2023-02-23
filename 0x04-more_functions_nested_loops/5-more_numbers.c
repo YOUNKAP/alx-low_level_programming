@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * more_numbers - number function
+ * more_numbers - nmbr fct
  * Return: no return
  */
 
 void more_numbers(void)
 {
 
-int i, nb2;
-	for (nb1 = 1; nb1 <= 10; nb1++)
+int i, j;
+	for (i = 1; i <= 10; i++)
 	{
-		for (nb2 = 0; nb2 <= 14; nb2++)
+		for (j = 0; j <= 14; j++)
 		{
-			if (nb2 >= 10)
+			if (j >= 10)
 			_putchar('1');
-			_putchar(nb2 % 10 + '0');
+			_putchar(j % 10 + '0');
 		}
 			_putchar('\n');
 		}
