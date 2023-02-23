@@ -2,6 +2,7 @@
 
 /**
  * print_diagonal -> printing lines diagonal
+ * @n: input
  *
  * Return: void
  */

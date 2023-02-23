@@ -2,6 +2,7 @@
 
 /**
  * print_line - printing lines
+ * @n: input 
  *
  * Return: void
  */
